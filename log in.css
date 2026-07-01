@@ -57,6 +57,28 @@ padding: 20px 0px;
     color: #ccc;
     width: 500px;
     margin-top: 20px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+.form p::after{
+    content: '';
+    height: 2px;
+    width: 45%;
+    position:absolute;
+    background-color: #cdd0d3;
+    top: 10px;
+    left: 0px;
+}
+.form p::before{
+    content: '';
+    height: 2px;
+    width: 45%;
+    position:absolute;
+    background-color: #cdd0d3;
+    top: 10px;
+    left: 55%;
 }
 .google img{
     width: 20px;
@@ -70,7 +92,7 @@ padding: 20px 0px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
-    /* margin: 200px; */
+
 }
 .apple img{
     width: 20px;
@@ -84,7 +106,7 @@ padding: 20px 0px;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
-    /* margin: 200px; */
+    margin-top: 20px;
 }
 .form input{
     padding:20px 15px;
@@ -194,8 +216,12 @@ padding: 20px 0px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
-    /* margin: 200px; */
+    /* margin-bottom: 200px; */
 }
+.form .google{
+    margin: 200px 0;
+}
+
 .apple img{
     width: 20px;
     height: 20px;
